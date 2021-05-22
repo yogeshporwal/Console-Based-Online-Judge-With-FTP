@@ -38,11 +38,11 @@ I have implemented following FTP commands and "CODEJUD" command that a client ca
 
 - For server file: 
 
-  To complie : ``` g++ <source_filename> -o <any name> 
-                eg: g++ server.cpp -o server ```
+  To complie : ```$ g++ <source_filename> -o <any name> 
+                eg: $ g++ server.cpp -o server ```
                 
-  To Run : ``` ./<any name*> <Port number>
-              eg: ./server 8000 ```
+  To Run : ``` $ ./<any name*> <Port number>
+              eg: $ ./server 8000 ```
 
               *this should be same as given while compiling that file
 
@@ -50,11 +50,11 @@ I have implemented following FTP commands and "CODEJUD" command that a client ca
   
  - For client file: 
 
-    For  complie : ``` g++ <source_filename> -o <any name>
-                    eg: g++ client.cpp -o client ```
+    For  complie : ```$ g++ <source_filename> -o <any name>
+                    eg:$ g++ client.cpp -o client ```
                 
-    To Run : ``` ./<any name*> <host name> <Port number>
-                eg: ./client localhost 8000 ```
+    To Run : ```$ ./<any name*> <host name> <Port number>
+                eg:$ ./client localhost 8000 ```
 
               *this should be same as given while compiling that file
 
