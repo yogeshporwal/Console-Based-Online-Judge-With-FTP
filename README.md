@@ -19,9 +19,9 @@ I have implemented following FTP commands and "CODEJUD" command that a client ca
 
 ## Instructions to run the code
 
-* To judge any file using "CODEJUD" command there must be a file at server side to match output for that program otherwise it will give an error, so first use "STOR" command to send standard testcase output file to server. For runtime input, input text file should also be sent using "STOR" command priorly.
+* To judge any file using "CODEJUD" command there must be a file at server side to match output for that program otherwise it will give an error, so first use "STOR" command to send standard testcase output file to server. For runtime input, input text file should also be sent using "STOR" command priorly.Also the program we are going to check should also be there at server side.
 * Naming convention of standard testcase files and input files must be as follows:
-* 
+
   - **Input file:** input_(program name).txt e.g. if program file is greetings.cpp then input file should be named as "input_greetings.txt" 
   - **Standard Output File:** testcase_(program name).txt e.g. if program file is greetings.cpp then standard output file should be named as testcase_greetings.txt"   
   **Note:** you can refer "Smple Files" folder of this repo. to know more.
