@@ -6,7 +6,7 @@ I believe most of the people must be aware of the term "Online Judge" or "OJ" be
 
 In this project I have implemented Console based Online Judge in which there will be a server and multiple clients communicating with the server.Each client can send a c/c++ file to the server through CODEJUD command and the server will reply to the client whether the given code is successful or giving error(like compilation,runtime,TLE etc) at any point of time during execution of the code. If execution is successful then the server will also check and reply to the client about the acceptance of the c/c++ file.
 
-In order to complete above task I have implemented file transfer protocol(FTP) on top of the TCP sockets.There will be a server and multiple clients communicating with the server. Each client process will open a new connection with the server. I have used "select" system call to handle multiple client requests.  
+In order to complete above task I have also implemented file transfer protocol(FTP) on top of the TCP sockets.There will be a server and multiple clients communicating with the server. Each client process will open a new connection with the server. I have used "select" system call to handle multiple client requests.  
 
 I have implemented following FTP commands and "CODEJUD" command that a client can use,they work as follows:
 
